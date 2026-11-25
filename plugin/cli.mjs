@@ -15,7 +15,7 @@ const report = {
   mode: isDemo ? "demo" : "local",
   branch: gitBranch,
   cwd: process.cwd().split("/").pop(),
-  workbenchUrl: "https://aetherx86.github.io/learn-graph/",
+  workbenchUrl: "https://omakasekim.github.io/learn-graph/",
   checkedAt: new Date().toISOString(),
 };
 console.log(args.includes("--json") ? JSON.stringify(report, null, 2) : `[${report.tool}] mode=${report.mode} branch=${report.branch} -> ${report.workbenchUrl}`);

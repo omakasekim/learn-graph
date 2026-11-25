@@ -1,6 +1,6 @@
 # learn-graph
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-8B5CF6?style=for-the-badge)](https://aetherx86.github.io/learn-graph/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-8B5CF6?style=for-the-badge)](https://omakasekim.github.io/learn-graph/)
 [![Chrome MV3](https://img.shields.io/badge/Plugin-Chrome%20MV3%20%2B%20CLI-0EA5E9?style=for-the-badge)](#plugin-installation)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
