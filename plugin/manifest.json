@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "learn-graph — Aether Visual Developer Overlay",
+  "version": "1.0.0",
+  "description": "Zoomable developer-roadmap & OSSU curriculum DAG, repo-to-roadmap skill-gap scanner, and step-by-step algorithm/memory visualizer",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "learn-graph"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
